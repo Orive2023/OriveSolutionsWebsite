@@ -179,8 +179,7 @@ header {
     min-height: 70vh;
     /* background-color: #f33c3c; */
     /* position: relative; */
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url(https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?w=2000&t=st=1690780993~exp=1690781593~hmac=78593a73571af3ab05827038add27835d6be50dfcb35de6b8ab73d0a6d8e30c4);
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url(/img/Machine-leaning.jpg);
     background-position: center right;
     background-size: cover;
     display: grid;
