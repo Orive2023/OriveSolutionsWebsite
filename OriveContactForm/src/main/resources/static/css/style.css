@@ -975,25 +975,25 @@ header {
 
 
 .img-box:nth-child(1){
-    background: url(https://img.freepik.com/free-photo/one-person-typing-futuristic-glowing-computer-generated-by-ai_188544-13364.jpg?w=2000&t=st=1690785868~exp=1690786468~hmac=94d539f9e58dcf6ca5c24cf320d51488472b5c3991f25cee93ee498a292f1108);
+    background: url(/img/large-green-rice-field-with-green-rice-plants-rows.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img-box:nth-child(2){
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url(https://img.freepik.com/free-photo/closeup-shot-rice-plant-sunset-with-plantation-background_181624-42264.jpg?w=1800&t=st=1690785597~exp=1690786197~hmac=882f7954ba8706dc1506b4dfae63c7de28e4e4f75eb743e1bcd7417a0005abfb);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url(/img/ai-3.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img-box:nth-child(3){
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url(https://img.freepik.com/free-photo/ai-technology-brain-background-digital-transformation-concept_53876-125206.jpg?w=1800&t=st=1690786012~exp=1690786612~hmac=90e5c98f462c9ebd8bee6d63fa1f29ee56aab65beeb391b5cbeed1cea9af42af);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url(/img/hand-2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img-box:nth-child(4){
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url(https://img.freepik.com/free-photo/hand-holding-smartphone-futuristic-abstract-illuminate-line-dot-wireless-connection-wave-with-triangle-bright-blue-background-mobile-banking-shopping-online-concept-technology-future_493343-29981.jpg?w=1800&t=st=1690786153~exp=1690786753~hmac=8920920e6c9886e1afca68e481aa86e177b60cb474ccdd6e88bc4fc7997cc048);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url(/img/cloud-7.jpg);
     background-size: cover;
     background-position: center;
 }
