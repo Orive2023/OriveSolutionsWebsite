@@ -365,13 +365,13 @@ header {
   cursor: pointer;
 }
 .slider .controls > .up{
-  margin-top: 1800px;
+  margin-top: 2100px;
   right: 0px;
   background: #fff;
   color: #111;
 }
 .slider .controls > .down{
-  margin-top: 1850px;
+  margin-top: 2150px;
   left: 0px;
   background: #111;
   color: #fff;
@@ -442,6 +442,7 @@ header {
   .col-lg-3 p {
     text-align: justify;
     font-size: 15px;
+    color: #fff;
     padding: 10px;
     letter-spacing: 0.05rem;
   }
