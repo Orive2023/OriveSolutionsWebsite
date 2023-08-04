@@ -41,14 +41,16 @@ public class ContactDetails implements Serializable{
 	private Long contactId;
 	
 	
-	@NotBlank(message = "First Name can not blank")
-	@Size(min = 2,max = 20)
+	@NotBlank(message = "First name is required")
+    @Size(min = 2, max = 50, message = "First name must be between {min} and {max} characters long")
+    @Pattern(regexp = "^[a-zA-Z]+$", message = "First name must contain only alphabetic characters")
 	@Column(name = "firstName")
 	private String firstName;
 	
 	
-	@NotBlank(message = "Last Name can not blank")
-	@Size(min = 2,max = 20)
+	@NotBlank(message = "First name is required")
+    @Size(min = 2, max = 50, message = "First name must be between {min} and {max} characters long")
+    @Pattern(regexp = "^[a-zA-Z]+$", message = "First name must contain only alphabetic characters")
 	@Column(name = "lastName")
 	private String lastName;
 	
@@ -57,12 +59,12 @@ public class ContactDetails implements Serializable{
 	@Column(name = "emailAddress")
 	private String emailAddress;
 	
-	@NotBlank
-	@Column(name = "phoneNumber")
-	private String phoneNumber;
-	
 	@NotNull
-	@NotBlank(message = "give message")
+	@Column(name = "phoneNumber")
+	private Long phoneNumber;
+	
+	@Size(min = 2, max = 500, message = "Message must be between {min} and {max} characters long")
+	@NotBlank(message = "Write a message")
 	@Column(name = "writeMessage")
 	private String writeMessage;
 	
