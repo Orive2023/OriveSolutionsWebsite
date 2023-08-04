@@ -85,14 +85,14 @@
                             <div class="row50">
                                 <div class="inputBox">
                                     <span>First Name</span>
-                                    <input type="text" name="firstName" placeholder="John">
+                                    <input type="text" name="firstName" placeholder="John" required>
                                      <span><div th:if="${#fields.hasErrors('firstName')}" class="error-message">
         <p th:errors="*{firstName}"></p>
     </div></span>
                                 </div>
                                 <div class="inputBox">
                                     <span>Last Name</span>
-                                    <input type="text" name="lastName" placeholder="Doe">
+                                    <input type="text" name="lastName" placeholder="Doe" required>
                                      <span><div th:if="${#fields.hasErrors('lastName')}" class="error-message">
         <p th:errors="*{lastName}"></p>
     </div></span>
@@ -101,14 +101,14 @@
                             <div class="row50">
                                 <div class="inputBox">
                                     <span>Email Address</span>
-                                    <input type="text" name="emailAddress" placeholder="johndoe21@gmail.com">
+                                    <input type="text" name="emailAddress" placeholder="johndoe21@gmail.com" required>
                                      <span><div th:if="${#fields.hasErrors('emailAddress')}" class="error-message">
         <p th:errors="*{emailAddress}"></p>
     </div></span>
                                 </div>
                                 <div class="inputBox">
                                     <span>Mobile</span>
-                                    <input type="text" name="phoneNumber" placeholder="+91 987 654 3210">
+                                    <input type="text" name="phoneNumber" placeholder="+91 987 654 3210" pattern="[0-9]{10}" title="Enter a 10-digit phone number" required>
                                      <span><div th:if="${#fields.hasErrors('phoneNumber')}" class="error-message">
         <p th:errors="*{phoneNumber}"></p>
     </div></span>
@@ -117,7 +117,7 @@
                              <div class="row50">
                                 <div class="inputBox">
                                     <span>Organisation/Website</span>
-                                    <input type="text" name="organisationName" placeholder="johndoe21@gmail.com">
+                                    <input type="text" name="organisationName" placeholder="johndoe21@gmail.com" required>
                                                 <span><div th:if="${#fields.hasErrors('organisationName')}" class="error-message">
         <p th:errors="*{organisationName}"></p>
     </div></span>
@@ -126,7 +126,7 @@
                             <div class="row100">
                                 <div class="inputBox">
                                     <span>Message</span>
-                                    <textarea name="writeMessage" placeholder="ERP/CRM/HRM"></textarea>
+                                    <textarea name="writeMessage" placeholder="ERP/CRM/HRM" required></textarea>
                                                 <span><div th:if="${#fields.hasErrors('writeMessage')}" class="error-message">
         <p th:errors="*{writeMessage}"></p>
     </div></span>
@@ -150,6 +150,7 @@
 
     <!-- Your submit button and other form elements -->
 </form>
+                    </form>
                     </form>
                 </div>
     
@@ -225,13 +226,13 @@
                 </div>
                 <div class="col-lg-3">
                     <h3>Services</h3>
-                    <p> ERP</p>
-                    <p> Web/App Design & Development</p>
-                    <p> CRM</p>
-                    <p> HRM</p>
-                    <p> Bulk SMS</p>
-                    <p> Logo/Branding</p>
-                    <p> Business Start-Up Products</p>
+                    <a  href="erp.html"><p> ERP</p></a>
+                    <a 	href="website.html"><p href="website.html"> Web/App Design & Development</p></a>
+                    <a  href="crm.html"><p> CRM</p></a>
+                    <a 	href="hrm.html"><p> HRM</p></a>
+                    <a  href="sms.html"><p> Bulk SMS</p></a>
+                    <a  href="logo.html"><p> Logo/Branding</p></a>
+                    <a  href="business.html"><p> Business Start-Up Products</p></a>
                 </div>
                 <div class="col-lg-3">
                     <h3>Support</h3>
